@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>14 DE FEBRERO</title>
+</head>
+<body>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: url("IMG/madera.jpg")center;
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 20px;
+}
+.navbar a{
+display: block;
+padding: 25px 50px;
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 25px;
+font-family: Cambria;
+}
+.navbar a:hover{
+    background: url("IMG/madera2.jpg");
+    color:aliceblue;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    padding: 25px; 
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.header{
+    height: 30vh !important ;
+    background: url("IMG/fondo.jpg") no-repeat center;
+    background-size: cover;
+}
+.title{
+    margin-bottom: 50px;
+    font-size: 100px;
+    font-weight: 8000;
+    text-transform: uppercase;
+}
+.content{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+display: flex;
+position: relative;
+}
+.img a{  
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    text-align: center;  
+    color:rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 120px;
+    position:relative;
+}
+.img1{
+    background: url("IMG/amor.webp");
+    background-size: cover;
+    width:682px; 
+    height:482px;
+}
+.img2{
+    background: url("IMG/amistad.jpg"); 
+    background-size: cover; 
+    width:683px; 
+    height:481px;
+}
+.img1:hover{ 
+    margin: auto;
+    -webkit-text-stroke: 2px white;
+    color:rgb(0, 0, 0);
+    font-family: Times New Roman ;
+}
+.img2:hover{
+     margin: auto;
+    -webkit-text-stroke: 2px white;
+    color:rgb(0, 0, 0);
+    font-family: Times New Roman ;
+}
+.img p{
+    font-size: 100px;
+    left: 655px;
+    position: fixed;   
+    
+}
+    </style>
+    <div class="head">
+        <div class=logo>
+            <img src="IMG/14f.jpg" style="width: 75px">
+        </div>
+        <nav class="navbar">
+            <a href="inicio.html">Inicio</a>
+            <a href="sobre.html">Nosotros</a>
+            <a href="index.html">Cerrar de Sesion</a>
+        </nav>
+    </div>
+
+    <header class="content header">
+        <h1 class="title" style="height: 5%">
+            14 DE FEBRERO DIA DEL
+        </h1 >
+       
+    </header>
+
+    <div class="img">
+       <a href="amor.html" class="img1">AMOR</a>
+       <a href="amistad.html" class="img2">AMISTAD</a> 
+       <p>y</p>
+    </div>
+</body>
+</html>
